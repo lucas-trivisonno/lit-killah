@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Desafio-</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
@@ -13,20 +14,41 @@
         <h1>
             Lit Killah
         </h1>
-        <nav>
-            <ul>
-                <li> <a href="index.html">Biografia</a> </li>
-                <li> <a href="discografia.html">Discografia</a> </li>
-                <li> <a href="carrera.html">Carrera</a> </li>
-                <li> <a href="conciertos.html">Conciertos</a> </li>
-                <li> <a href="galeria.html">Galeria</a> </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="contenedor-intro">
-            <h2 class="subtitulo-intro">¿Quién es Lit Killah?</h2>
-            <img src="./pubilc/lit killah galeria 2.jpg" alt="imagen de lit killah" class="imagen-inicio">
+        <nav class="navbar navbar-expand-lg navbar-light bg-#8a8989">
+            <div class="container-fluid">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Biografia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="discografia.html">Discografia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrera.html">Carrera</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="conciertos.html">Conciertos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         
+    </header> 
+    <main class="container">
+        <div class="row">
+        <div class="col-12">
+        <h2 class="subtitulo-intro">¿Quién es Lit Killah?</h2>
+        </div>
+            <div class="col-xs-4 col-sm-6 col-md-6">
             <p class="parrafo-intro">Nació el 4 de octubre de 1999, en González Catán. Desde chico fue admirador de los géneros rap y hip hop, y de sus exponentes, como
                 eminem y 50 cent. En su adolescencia se interesó por el rap y el Freestyle viendo diversos videos de estos encuentros en Internet.
                 Algunos años después, a la edad de 16 años, comenzó a frecuentar plazas locales cercanas donde se celebraban estos eventos. 
@@ -37,13 +59,19 @@
                 ​En una entrevista afirma que su intención a la hora de escoger su nombre era que el mismo no fuera "tecniqueable" 
                 (es decir, que no pudiesen hacer juegos de palabras con su nombre) por sus rivales en las batallas de freestyle.
                 También,entre los fans, se le han dado diferentes apodos, como "Dam Sin Pila", "Ametralladora" y "Modo Tomate", estos últimos por la rapidez al improvisar, sobre todo cuando no toma suficiente aire y su cara se pone rojiza por el esfuerzo.</p>  
+            </div>
+            <div class="col-xs-4 col-sm-5 col-md-6">
+                <img src="./pubilc/lit killah galeria 2.jpg" alt="imagen de lit killah" class="imagen-inicio">
+            </div>
         </div>
+
     </main>
-    <footer class="footer-home">
+    <footer class="d-flex justify-content-center align-items-center">
         <a target="_blank" href=https://www.facebook.com/LitKillahMM><i class="fa-brands fa-facebook-f"></i></a>
         <a target="_blank" href="https://www.twitch.tv/litkillah"><i class="fa-brands fa-twitch"></i></a>
         <a target="_blank" href="https://www.instagram.com/litkillah/"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://open.spotify.com/album/1SBHFu8QLBlhsqLL7WQtlR?si=GX7sfYYhTFaA3f69GkrYDA" target="blank"><i class="fa-brands fa-spotify"></i></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

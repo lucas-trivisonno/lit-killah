@@ -32,23 +32,17 @@ ul li a {
     padding-right: 20px;
     
 }
-.contenedor-intro{
-    grid-template-areas: 
-    "subtitulo-intro subtitulo-intro subtitulo-intro subtitulo-intro"
-    "imagen-inicio imagen-inicio parrafo-intro parrafo-intro"
+
     
-    
-    
-}
 .subtitulo-intro{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     font-style: italic;
     color: #f0f8ff;
-    grid-area: subtitulo-intro;
+    
     padding-top:20px;
     padding-bottom: 20px;
-    padding-left: 10px;
+    padding-left: 60px;
 }
     
  .parrafo-intro{
@@ -56,17 +50,17 @@ ul li a {
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     justify-self: center;
-    grid-area: parrafo-intro;
+   
     padding-bottom: 20px;
-    padding-left: 10px;
-    width: 250px;
+    padding-left: 60px;
+    width: 290px;
 
 }
 .imagen-inicio{
-grid-area: imagen-inicio;
+
 width: 250px;
 padding-bottom: 20px;
-padding-left: 10px;
+padding-left: 60px;
 }
 .footer-home{
     background-color: #8a8989;
@@ -175,56 +169,44 @@ padding-left: 10px;
         transition-duration: 2s;
     }
     ul li a {
-        color: #f0f8ff;
+        color: #f0f8ff !important;   
         text-decoration: none;
         padding-right: 20px;
         font-size: 20px;
         
     }
-    .contenedor-intro{
-        display: grid;
-        grid-template-areas: 
-        "subtitulo-intro subtitulo-intro subtitulo-intro"
-        "parrafo-intro parrafo-intro imagen-inicio";
-        
-        
-    }
+    
     .subtitulo-intro{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 50px;
         font-style: italic;
         color: #f0f8ff;
-        grid-area: subtitulo-intro;
+        display: flex;
+        justify-content: center;
         padding-top:20px;
         padding-bottom: 50px;
         padding-left: 30px;
-        justify-self: center;
+        
     }
         
      .parrafo-intro{
         color: #f0f8ff;
         font-family: 'Times New Roman', Times, serif;
         font-style: oblique;
+        padding-bottom: 30px;
         
-        grid-area: parrafo-intro;
-        padding-bottom: 50px;
-        padding-left: 10px;
-        width: 400px;
+        width: 450px;
     
     }
     .imagen-inicio{
-    grid-area: imagen-inicio;
-    width: 350px;
-    padding-bottom: 50px;
+    width: 250px;
+    
     padding-left: 10px;
     }
-    .footer-home{
+    footer{
         background-color: #8a8989;
         width: 100%;
         height: 100px;
-         display: flex;
-        justify-content: center;
-        align-items: center; 
     }
     .fa-brands{
         color: #f0f8ff;
@@ -309,5 +291,20 @@ padding-left: 10px;
     .contenedor-carrera{
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+}
+@media screen and (min-width:600px){
+    .subtitulo-intro{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    .parrafo-intro{
+        width: 500px;
+    }
+    .imagen-inicio{
+        width: 370px;
     }
 }
