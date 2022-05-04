@@ -62,13 +62,11 @@ width: 250px;
 padding-bottom: 20px;
 padding-left: 60px;
 }
-.footer-home{
+footer{
     background-color: #8a8989;
     width: 100%;
     height: 100px;
-     display: flex;
-    justify-content: center;
-    align-items: center; 
+     
 }
 .fa-brands{
     color: #f0f8ff;
@@ -78,11 +76,17 @@ padding-left: 60px;
     right: 50px;
 
 }
-.disco{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
+h4{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    color: #f0f8ff;
+}
+.fa-solid{
+   
+    font-size: 40px;
+    color: #f0f8ff;
 }
 .album{
     width: 100%;
@@ -111,26 +115,31 @@ padding-left: 60px;
 .imagen-concierto{
     width: 315px;
 }
-.contenedor-galeria{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+
 .imagen-uno{
-    width: 320px;
-    
+    width: 340px;
+    padding-left: 6px;
 }
 .imagen-dos{
-    width: 160px;
+    width: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
 }
 .imagen-tres{
-    width: 160px;
+    width: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
 }
 .imagen-cuatro{
-    width: 160px;
+    width: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
 }
 .imagen-cinco{
-    width: 160px;
+    width: 170px;
+    height: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
 }
 @media screen and (min-width: 768px){
     header{
@@ -221,9 +230,16 @@ padding-left: 60px;
     .fa-brands:hover{
         color: #535252;
     }
-    .disco{
-        display: flex;
-        justify-content: center;
+    .subtitulo-disco{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        font-style: oblique;
+        color: #f0f8ff;
+    }
+    .fa-solid{
+        font-size: 40px;
+        color: #f0f8ff;
     }
     .album{
         
@@ -250,43 +266,33 @@ padding-left: 60px;
         font-size: 20px;
     }
     .imagen-concierto{
-        width: 455px;
+        width: 400px;
+        height: 400px;
+        padding-top: 50px;
     }
-    .contenedor-galeria{
-        display: grid;
-        grid-template-areas: 
-        "imagen-uno imagen-dos imagen-tres"
-        "imagen-uno imagen-cuatro imagen-cinco";
-        justify-content: center;
-    }
+    
     .imagen-uno{
-       width: 400px; 
-        grid-area: imagen-uno;
+       width: 350px; 
+        
         padding: 10px;
     }
     .imagen-dos{
         width: 165px;
-        grid-area: imagen-dos;
-        padding-top: 30px;
+        padding-top: 10px;
         
     }
     .imagen-tres{
         width: 165px;
-        grid-area: imagen-tres;
-        padding-top: 30px;
-        padding-left: 10px;
+        padding-top: 10px;
     }
     .imagen-cuatro{
         width: 165px;
-        grid-area: imagen-cuatro;
         padding-top: 10px;
     }
     .imagen-cinco{
         width: 165px;
         height: 165px;
-        grid-area: imagen-cinco;
-        padding-top: 10px;
-        padding-left: 10px;
+       padding-top: 9px;
     }
     .contenedor-carrera{
         padding-top: 10px;
@@ -309,4 +315,24 @@ padding-left: 60px;
         padding-top: 20px;
         padding-left: 10px;
     }
+    .imagen-uno{
+        width: 500px;
+        }
+        .imagen-dos{
+        width: 260px;
+        
+        }
+        .imagen-tres{
+            width: 260px;
+        }
+        .imagen-cuatro{
+            width: 260px;
+            padding-top: 10px;
+        }
+        .imagen-cinco{
+            width: 260px;
+            height: 260px;
+            padding-top: 10px;
+        }
+        
 }
