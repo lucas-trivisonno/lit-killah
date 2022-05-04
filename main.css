@@ -306,5 +306,7 @@ padding-left: 60px;
     }
     .imagen-inicio{
         width: 370px;
+        padding-top: 20px;
+        padding-left: 20px;
     }
 }
