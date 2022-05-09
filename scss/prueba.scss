@@ -1,0 +1,9 @@
+$color-primary: #f0f8ff;
+@import "header";
+@import "main";
+@import "footer";
+@import "media";
+*{
+    margin: 0;
+    padding: 0;
+}

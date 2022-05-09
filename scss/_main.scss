@@ -1,0 +1,113 @@
+body{
+    background-color: #000000;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: $color-primary;
+    position: relative;
+    right: 40px;
+}
+ul li {
+    a{
+    color: $color-primary;
+    text-decoration: none;
+    padding-right: 20px;
+    }
+}
+
+    
+.subtitulo-intro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: $color-primary;
+    
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+    
+ .parrafo-intro{
+    color: $color-primary;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    justify-self: center;
+   
+    padding-bottom: 20px;
+    padding-left: 60px;
+    width: 290px;
+
+}
+.imagen-inicio{
+
+width: 250px;
+padding-bottom: 20px;
+padding-left: 60px;
+}
+h4{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    color: $color-primary;
+}
+.fa-solid{
+   
+    font-size: 40px;
+    color: $color-primary;
+}
+.album{
+    width: 100%;
+}
+.subtitulo-carrera{
+    color: $color-primary;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.parrafo-carrera{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: $color-primary;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.lista-concierto{
+    color: $color-primary;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-decoration: underline;
+}
+.imagen-concierto{
+    width: 315px;
+}
+
+.imagen-uno{
+    width: 340px;
+    padding-left: 6px;
+}
+.imagen-dos{
+    width: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+.imagen-tres{
+    width: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+.imagen-cuatro{
+    width: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+.imagen-cinco{
+    width: 170px;
+    height: 170px;
+    padding-left: 6px;
+    padding-top: 5px;
+}

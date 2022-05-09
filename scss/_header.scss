@@ -1,0 +1,40 @@
+header{
+    background-color: #8a8989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: $color-primary;
+    position: relative;
+    right: 40px;
+}
+ul li {
+    a{
+    color: $color-primary;
+    text-decoration: none;
+    padding-right: 20px;
+    }
+}
+ul li{
+   &:hover{
+    color: #535252;
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: all;
+    transition-duration: 2s;
+   }
+}
+ul li  {
+    a{
+    color: $color-primary !important;   
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    }
+}
