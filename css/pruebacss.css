@@ -34,19 +34,6 @@ ul li a {
 body {
   background-color: #000000; }
 
-h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
-  font-style: oblique;
-  color: #f0f8ff;
-  position: relative;
-  right: 40px; }
-
-ul li a {
-  color: #f0f8ff;
-  text-decoration: none;
-  padding-right: 20px; }
-
 .subtitulo-intro {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
@@ -110,17 +97,7 @@ h4 {
   width: 340px;
   padding-left: 6px; }
 
-.imagen-dos {
-  width: 170px;
-  padding-left: 6px;
-  padding-top: 5px; }
-
-.imagen-tres {
-  width: 170px;
-  padding-left: 6px;
-  padding-top: 5px; }
-
-.imagen-cuatro {
+.imagen-dos, .imagen-tres, .imagen-cuatro {
   width: 170px;
   padding-left: 6px;
   padding-top: 5px; }
@@ -131,6 +108,26 @@ h4 {
   padding-left: 6px;
   padding-top: 5px; }
 
+.fa-brands-facebook {
+  color: #fcf8f8;
+  padding: 0 10px;
+  font-size: 30px; }
+
+.fa-brands-twitch {
+  color: #fdfcfc;
+  padding: 0 10px;
+  font-size: 30px; }
+
+.fa-brands-instagram {
+  color: #fdfcfc;
+  padding: 0 10px;
+  font-size: 30px; }
+
+.fa-brands-spotify {
+  color: #fdfcfc;
+  padding: 0 10px;
+  font-size: 30px; }
+
 footer {
   background-color: #8a8989;
   width: 100%;
@@ -139,9 +136,7 @@ footer {
 .fa-brands {
   color: #f0f8ff;
   padding: 0 10px;
-  font-size: 30px;
-  position: relative;
-  right: 50px; }
+  font-size: 30px; }
 
 @media screen and (min-width: 768px) {
   header {
@@ -200,8 +195,6 @@ footer {
     color: #f0f8ff;
     padding: 0 10px;
     font-size: 30px;
-    position: relative;
-    right: 30px;
     transition: all;
     transition-timing-function: ease-in-out; }
   .fa-brands:hover {
@@ -214,8 +207,8 @@ footer {
   .fa-solid {
     font-size: 40px;
     color: #f0f8ff; }
-  .album {
-    width: 60%;
+  iframe {
+    width: 100%;
     height: 500px;
     padding: 10px;
     padding-top: 10px;
@@ -241,7 +234,7 @@ footer {
   .imagen-uno {
     width: 350px;
     padding: 10px; }
-  .imagen-dos {
+  .imagen-dos, .imagen-tres, .imagen-cuatro {
     width: 165px;
     padding-top: 10px; }
   .imagen-tres {
@@ -272,7 +265,7 @@ footer {
     padding-left: 10px; }
   .imagen-uno {
     width: 500px; }
-  .imagen-dos {
+  .imagen-dos, .imagen-tres, .imagen-cuatro {
     width: 260px; }
   .imagen-tres {
     width: 260px; }

@@ -1,3 +1,18 @@
+$redes : (
+    facebook: #fcf8f8,
+    twitch: #fdfcfc,
+    instagram: #fdfcfc,
+    spotify: #fdfcfc,
+);
+@each $red, $color in $redes{
+    .fa-brands-#{$red} {
+        color: $color;
+        padding: 0 10px;
+        font-size: 30px;
+       
+    }
+}
+
 footer{
     background-color: #8a8989;
     width: 100%;
@@ -5,10 +20,8 @@ footer{
      
 }
 .fa-brands{
-    color: #f0f8ff;
+    color: $color-primary;
     padding: 0 10px;
     font-size: 30px;
-    position: relative;
-    right: 50px;
-
+    
 }

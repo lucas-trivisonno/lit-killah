@@ -1,21 +1,10 @@
+@mixin size {
+    
+}
 body{
     background-color: #000000;
 }
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    font-style: oblique;
-    color: $color-primary;
-    position: relative;
-    right: 40px;
-}
-ul li {
-    a{
-    color: $color-primary;
-    text-decoration: none;
-    padding-right: 20px;
-    }
-}
+
 
     
 .subtitulo-intro{
@@ -96,14 +85,10 @@ h4{
     padding-top: 5px;
 }
 .imagen-tres{
-    width: 170px;
-    padding-left: 6px;
-    padding-top: 5px;
+   @extend .imagen-dos
 }
 .imagen-cuatro{
-    width: 170px;
-    padding-left: 6px;
-    padding-top: 5px;
+   @extend .imagen-dos
 }
 .imagen-cinco{
     width: 170px;
