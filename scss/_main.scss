@@ -1,5 +1,6 @@
-@mixin size {
-    
+@mixin font {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 }
 body{
     background-color: #000000;
@@ -19,9 +20,8 @@ body{
 }
     
  .parrafo-intro{
+     @include font;
     color: $color-primary;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
     justify-self: center;
    
     padding-bottom: 20px;
@@ -58,8 +58,7 @@ h4{
     padding-top: 5px;
 }
 .parrafo-carrera{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
+    @include font;
     color: $color-primary;
     padding-top: 5px;
     padding-left: 5px;
