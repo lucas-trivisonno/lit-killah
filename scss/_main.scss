@@ -3,7 +3,7 @@
     font-style: oblique;
 }
 body{
-    background-color: #000000;
+    background-color: #0f0f0f;
 }
 
 
@@ -16,7 +16,7 @@ body{
     
     padding-top:20px;
     padding-bottom: 20px;
-    padding-left: 60px;
+    padding-left: 70px;
 }
     
  .parrafo-intro{
@@ -25,7 +25,7 @@ body{
     justify-self: center;
    
     padding-bottom: 20px;
-    padding-left: 60px;
+    padding-left: 70px;
     width: 290px;
 
 }
@@ -33,7 +33,7 @@ body{
 
 width: 250px;
 padding-bottom: 20px;
-padding-left: 60px;
+padding-left: 70px;
 }
 h4{
     
@@ -72,15 +72,16 @@ h4{
 }
 .imagen-concierto{
     width: 315px;
+    padding-left: 20px;
 }
 
 .imagen-uno{
-    width: 340px;
-    padding-left: 6px;
+    width: 300px;
+    padding-left: 12px;
 }
 .imagen-dos{
-    width: 170px;
-    padding-left: 6px;
+    width: 145px;
+    padding-left: 12px;
     padding-top: 5px;
 }
 .imagen-tres{
@@ -90,8 +91,8 @@ h4{
    @extend .imagen-dos
 }
 .imagen-cinco{
-    width: 170px;
-    height: 170px;
-    padding-left: 6px;
+    width: 145px;
+    height: 145px;
+    padding-left: 12px;
     padding-top: 5px;
 }
